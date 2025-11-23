@@ -9,7 +9,7 @@ MERCHANTABILITY OR FIT FOR A PARTICULAR PURPOSE.
 See the Mulan PSL v2 for more details. */
 
 #include "builtin.h"
-
+#include <cmath>  
 namespace builtin {
 
 RC _typeof(const vector<Value> &args, Value &result)
